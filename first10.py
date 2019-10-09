@@ -2,8 +2,8 @@
 import sys
 print(sys.argv)
 
-#file_name = 'first_10.csv'
-file_name = sys.argv[1]
+                     
+file_name = sys.argv[1]    #file_name = 'first_10.csv'
 pricemin = int(sys.argv[2])
 pricemax = int(sys.argv[3])
 
