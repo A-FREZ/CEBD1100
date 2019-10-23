@@ -37,6 +37,8 @@ def max_inflammations(patient_id, file_name='inflammation-01.csv'):
     max = numpy.max(inflammations[patient_id])
     return max
 
+
+
 def acute_patient(file_name='inflammation-01.csv'):
     '''
     Return the id of the patient with the highest average number of 
@@ -44,9 +46,9 @@ def acute_patient(file_name='inflammation-01.csv'):
     patient_id -- id of the patient
     file_name  -- data file name, must be under directory 'data'
     '''
-
     # Concatenate directory name with file name
     data_dir = 'data'
+    print(data_dir,file_name)
     complete_file_name = os.path.join(data_dir, file_name)
 
     # Load data
